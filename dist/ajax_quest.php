@@ -4,8 +4,7 @@ $remont = $_POST["remont"];
 $vibordom = $_POST["vibordom"];
 $phone = $_POST["phone"];
 $date = date('Y-m-d');
-$token = "1868717483:AAGn3vDpgSCBGudobdJL1w6WwWgtZQajlIU";
-$chat_id = "-1001783219858";
+
 $arr = array(
    'Заявка с сайта' => '',
    'Пожелания по ремонту: ' => $vibordom,
