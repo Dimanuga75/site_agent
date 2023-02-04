@@ -1,0 +1,262 @@
+.about {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  grid-template-rows: max-content;
+  padding-top: 3.2rem;
+  padding-bottom: 2rem;
+  @media (max-width: 991.98px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    grid-row-gap: 4.5rem;
+  }
+
+  &__wrapper {
+    background: url("../../img/about/fone.png") no-repeat;
+    overflow-x: hidden;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    @media (max-width: 991.98px) {
+      margin-top: 9rem;
+    }
+  }
+  &__photo-box {
+    background: url("../../img/about/about-author__picture.png") no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 60.3rem;
+    width: 34.7rem;
+    @media (max-width: 991.98px) {
+      justify-self: center;
+    }
+    @media (max-width: 479.98px) {
+      height: 40rem;
+      width: 30rem;
+    }
+  }
+
+  &__img-box {
+    width: 34.7rem;
+    height: 60.3rem;
+    @media (max-width: 479.98px) {
+      height: 40rem;
+      width: 30rem;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__name {
+    width: 23.3rem;
+    height: 5.4rem;
+    background: #45c436;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.04);
+    border-radius: 9px;
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #ffffff;
+    position: absolute;
+    left: 6rem;
+    bottom: 16.5rem;
+    @media (max-width: 479.98px) {
+      width: 17.5rem;
+      height: 4.1rem;
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+    }
+  }
+
+  &__company {
+    width: 29.9rem;
+    height: 5.5rem;
+    background: #ffd25a;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.04);
+    border-radius: 9px;
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    position: absolute;
+    left: 2rem;
+    bottom: 11.5rem;
+    @media (max-width: 479.98px) {
+      width: 22.9rem;
+      height: 4.3rem;
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      bottom: 13rem;
+    }
+  }
+  &__social-modul {
+    width: 27.8rem;
+    height: 9.8rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.1rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+  }
+  &__questions {
+    font-size: 1.6rem;
+    line-height: 120%;
+  }
+
+  &__info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.social {
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.1rem;
+  }
+}
+.info {
+  &__title-box {
+    margin-top: 7.6rem;
+    position: relative;
+    text-align: center;
+    @media (max-width: 991.98px) {
+      display: none;
+    }
+  }
+  &__title {
+    font-size: 4.6rem;
+    line-height: 5.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+  }
+
+  &__name {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 3.4rem;
+    line-height: 4.1rem;
+    align-self: center;
+    justify-self: center;
+    margin-top: 1rem;
+    @media (max-width: 991.98px) {
+      display: none;
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3rem;
+    @media (max-width: 767.98px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(10, 3.3rem);
+    grid-template-rows: 14.9rem;
+    border: 2px solid #45c436;
+    padding-left: 4rem;
+    width: 37rem;
+    @media (max-width: 479.98px) {
+      width: 30rem;
+      grid-template-rows: 9.5rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    line-height: 120%;
+    @media (max-width: 479.98px) {
+      font-size: 1.4rem;
+    }
+    &.i1 {
+      grid-column: 1/6;
+    }
+    &.i2 {
+      grid-column: 1/6;
+    }
+    &.i3 {
+      grid-column: 1/8;
+      @media (max-width: 479.98px) {
+        grid-column: 1/7;
+      }
+    }
+    &.i4 {
+      grid-column: 1/8;
+    }
+  }
+
+  &__img-box {
+    img {
+      width: 21rem;
+      @media (max-width: 479.98px) {
+        width: 12rem;
+      }
+    }
+    &.inf01 {
+      transform: translateY(0.3rem) translateX(-8rem);
+      grid-column: 7/11;
+      @media (max-width: 479.98px) {
+        transform: translateY(0.8rem) translateX(-7rem);
+      }
+    }
+    &.inf02 {
+      transform: translateY(0.6rem) translateX(-9rem);
+      grid-column: 7/11;
+      @media (max-width: 479.98px) {
+        transform: translateY(1.1rem) translateX(-7rem);
+      }
+    }
+    &.inf03 {
+      transform: translateY(0.6rem) translateX(-5rem);
+      grid-column: 9/11;
+      @media (max-width: 479.98px) {
+        transform: translateY(0.5rem) translateX(-8rem);
+      }
+      img {
+        width: 11.6rem;
+        @media (max-width: 479.98px) {
+          width: 7.6rem;
+        }
+      }
+    }
+    &.inf04 {
+      transform: translateY(0.1rem) translateX(-13rem);
+      grid-column: 9/11;
+      @media (max-width: 479.98px) {
+        transform: translateY(0.5rem) translateX(-12rem);
+      }
+    }
+  }
+}

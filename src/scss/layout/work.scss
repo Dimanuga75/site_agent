@@ -1,0 +1,145 @@
+.work {
+  margin-top: 10rem;
+  &__title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    display: grid;
+    grid-template-columns: 16.5rem 16.5rem 32rem;
+    grid-template-rows: min-content min-content;
+    width: 65rem;
+    justify-items: center;
+    line-height: 128%;
+    @media (max-width: 639.98px) {
+      grid-template-rows: repeat(3, min-content);
+      grid-template-columns: 174px 104px;
+      font-size: 26px;
+      line-height: 120%;
+    }
+  }
+  &__title-one {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  &__title-two {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-left: -4rem;
+    @media (max-width: 639.98px) {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      margin-left: 0;
+      margin-right: -32px;
+    }
+  }
+  &__title-three {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: -8.5rem;
+    @media (max-width: 639.98px) {
+      grid-column: 2/3;
+      margin-right: -13px;
+    }
+  }
+  &__title-four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: end;
+    @media (max-width: 639.98px) {
+      grid-column: 1/2;
+      grid-row: 3/4;
+      justify-self: unset;
+      margin-left: -25px;
+    }
+  }
+  &__title-img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: start;
+    border-radius: 50%;
+    width: 25.3rem;
+    height: 6.8rem;
+    border: 1px solid #45c436;
+    display: inline;
+    margin-top: 1.1rem;
+    @media (max-width: 639.98px) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+      width: 14.3rem;
+      height: 34px;
+      margin-top: 3px;
+      margin-left: -58px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  &__cases-box {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 390px);
+    grid-template-rows: repeat(4, 1fr);
+    @media (max-width: 1199.98px) {
+      //width: 900px;
+      grid-template-columns: repeat(auto-fill, 300px);
+      justify-content: center;
+    }
+    @media (max-width: 991.98px) {
+      grid-template-columns: repeat(2, min-content);
+    }
+    @media (max-width: 639.98px) {
+      grid-template-columns: min-content;
+    }
+  }
+
+  &__case-item {
+    width: 390px;
+    height: 390px;
+    @media (max-width: 1199.98px) {
+      width: 300px;
+      height: 300px;
+    }
+    @media (max-width: 991.98px) {
+      &:nth-child(4) {
+        display: block;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  &__btn {
+    margin-top: -111.5rem;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1199.98px) {
+      margin-top: -106rem;
+    }
+    @media (max-width: 991.98px) {
+      margin-top: -69rem;
+    }
+    @media (max-width: 767.98px) {
+      margin-top: -55rem;
+    }
+    @media (max-width: 639.98px) {
+      margin-top: 3rem;
+    }
+  }
+
+  &__button {
+    width: 22.7rem;
+    height: 7.2rem;
+  }
+}
+
+.hidden {
+  display: none;
+}

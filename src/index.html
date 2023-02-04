@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { 'title':"Главная" })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      <div class="photo__background">
+        <img src="@img/main/luca-bravo-198061-unsplash 1.jpg" alt="photo" />
+      </div>
+      <main>
+        <div class="main container">
+          <h1 class="main__title">
+            <span class="main__title-one">Создание и продвижение </span>
+            <span class="main__title-two">сайтов в России</span>
+          </h1>
+          <div class="main__subtitle">
+            Закройте вопрос с клиентами раз и навсегда
+          </div>
+          <div class="main__text-box">
+            <div class="main__text-one">
+              <span class="main__text-black">Делаем </span>
+              <span class="main__text-green">красивые и современные сайты</span>
+            </div>
+            <div class="main__text-two">
+              <span class="main__text-black">
+                для привличение клиентов в ваш бизнес</span
+              >
+            </div>
+            <button class="button main__button">
+              Оставить заявку и получить КП
+            </button>
+            <div class="main__title-image">
+              <img src="@img/main/Каталог 6.svg" alt="site" />
+            </div>
+          </div>
+
+          <div class="main__photo-box">
+            <div class="main__photo-item main__photo-item-active">
+              <img src="@img/main/фото1.png" alt="site" class="main__photo" />
+            </div>
+            <div class="main__photo-item">
+              <img src="@img/main/фото2.png" alt="site" class="main__photo" />
+            </div>
+            <div class="main__photo-item">
+              <img src="@img/main/фото3.png" alt="site" class="main__photo" />
+            </div>
+            <div class="main__photo-item">
+              <img src="@img/main/фото4.png" alt="site" class="main__photo" />
+            </div>
+            <div class="main__photo-item">
+              <img src="@img/main/фото5.png" alt="site" class="main__photo" />
+            </div>
+          </div>
+          <div class="main__slider-wrapper">
+            <div class="main__slider-box">
+              <div class="main__slider-btn up">
+                <img src="@img/main/Group.svg" alt="up" />
+              </div>
+              <div class="main__slider-dots">
+                <div class="main__slider-dot main__slider-dot-active"></div>
+                <div class="main__slider-dot"></div>
+                <div class="main__slider-dot"></div>
+                <div class="main__slider-dot"></div>
+                <div class="main__slider-dot"></div>
+              </div>
+              <div class="main__slider-btn down">
+                <img src="@img/main/back 2.svg" alt="down" />
+              </div>
+              <div class="main__slider-count-box">
+                <div class="main__slider-count-current">01</div>
+                <div class="main__slider-count-text">/</div>
+                <div class="main__slider-count-summa">05</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="photo__cloud">
+        <img src="@img/main/облока.png" alt="cloud" />
+      </div>
+      <section class="site-type container">
+        <div class="site-type__title-box">
+          <h2 class="site__title">
+            <span>Какой тип</span>
+            <div class="site__title-img"><span>сайта </span></div>
+            <span>Вам нужен?</span>
+          </h2>
+        </div>
+        <div class="site-type__box">
+          <div class="site-type__item">
+            <div class="site-type__title">Лендинг</div>
+            <div class="site-type__img-box">
+              <img
+                src="@img/siteType/Group 26.png"
+                alt="type"
+                class="site-type__img"
+              />
+            </div>
+            <span class="site-type__price-line">
+              <div class="site-type__price-old">45 000 руб</div>
+            </span>
+            <div class="site-type__price-new">от 35 000 руб</div>
+            <div class="site-type__btn">
+              <div class="site-type__button button">Подробнее</div>
+            </div>
+          </div>
+          <div class="site-type__item">
+            <div class="site-type__title">Многостраничный</div>
+            <div class="site-type__img-box">
+              <img
+                src="@img/siteType/Group 27.png"
+                alt="type"
+                class="site-type__img"
+              />
+            </div>
+            <span class="site-type__price-line">
+              <div class="site-type__price-old">60 000 руб</div>
+            </span>
+            <div class="site-type__price-new">от 45 000 руб</div>
+            <div class="site-type__btn">
+              <div class="site-type__button button">Подробнее</div>
+            </div>
+          </div>
+          <div class="site-type__item">
+            <div class="site-type__title">Интернет-магазин</div>
+            <div class="site-type__img-box">
+              <img
+                src="@img/siteType/Group 28.png"
+                alt="type"
+                class="site-type__img"
+              />
+            </div>
+            <span class="site-type__price-line">
+              <div class="site-type__price-old">65 000 руб</div>
+            </span>
+            <div class="site-type__price-new">от 49 000 руб</div>
+            <div class="site-type__btn">
+              <div class="site-type__button button">Подробнее</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="site-cost container">
+        <div class="site-type__title-box">
+          <h2 class="site__title">
+            <span>Узнайте</span>
+            <div class="site-cost-img"><span>стоимость </span></div>
+            <span>разработки Вашего сайта</span>
+          </h2>
+          <div class="site-cost__subtitle">
+            Ответьте на несколько простых вопросов
+          </div>
+          <div class="site-cost__box">
+            <div class="site-cost__dots-box">
+              <div class="site-cost__dots site-cost__dots-active"></div>
+              <div class="site-cost__dots"></div>
+              <div class="site-cost__dots"></div>
+              <div class="site-cost__dots"></div>
+            </div>
+            <form class="site-cost__questions" id="forma3">
+              <div class="questions__item questions__item-active">
+                <div class="questions__number">1 из 4 вопросов</div>
+                <div class="questions__text-main">Что Вы хотите получить?</div>
+                <div class="questions__info-box">
+                  <div class="questions__info">
+                    <input
+                      id="site1"
+                      checked
+                      type="checkbox"
+                      name="site"
+                      value="sdelat_site"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box quest1">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="site1" class="questions__text">
+                      <div class="questions__img-box">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/сделать сайт.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Сделать сайт</div></label
+                    >
+                  </div>
+                  <div class="questions__info">
+                    <input
+                      id="site2"
+                      type="checkbox"
+                      name="site"
+                      value="zayavki"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box quest1">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="site2" class="questions__text">
+                      <div class="questions__img-box">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/больше заявок.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Больше заявок</div></label
+                    >
+                  </div>
+                  <div class="questions__info">
+                    <input
+                      id="site3"
+                      type="checkbox"
+                      name="site"
+                      value="obsluzh_site"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box quest1">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="site3" class="questions__text">
+                      <div class="questions__img-box">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/Обслуживание сайта.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Обслуживание сайта</div></label
+                    >
+                  </div>
+                  <div class="questions__info">
+                    <input
+                      id="site4"
+                      type="checkbox"
+                      name="site"
+                      value="reklama"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box quest1">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="site4" class="questions__text">
+                      <div class="questions__img-box">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/Цель-1 1.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Настройка рекламы</div></label
+                    >
+                  </div>
+                </div>
+                <div class="questions__btn more">
+                  <div class="questions__button button">Далее ></div>
+                </div>
+              </div>
+              <div class="questions__item">
+                <div class="questions__number">2 из 4 вопросов</div>
+                <div class="questions__text-main">
+                  Какой у Вас вид деятельности?
+                </div>
+                <div class="questions__info-box">
+                  <div class="questions__info quest4">
+                    <input
+                      id="activ1"
+                      checked
+                      type="radio"
+                      name="activ"
+                      value="uslugi"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="activ1" class="questions__text">
+                      <div class="questions__img-box question2">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/услуги.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Продажа услуги</div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="activ2"
+                      type="radio"
+                      name="activ"
+                      value="tovar"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="activ2" class="questions__text">
+                      <div class="questions__img-box question2">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/товары.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Продажа товара</div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="activ3"
+                      type="radio"
+                      name="activ"
+                      value="oba_variant"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="activ3" class="questions__text">
+                      <div class="questions__img-box question2">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/оба варианта.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div>Оба варианта</div></label
+                    >
+                  </div>
+                </div>
+                <div class="questions__btn more">
+                  <div class="questions__button button">Далее ></div>
+                </div>
+              </div>
+              <div class="questions__item">
+                <div class="questions__number">3 из 4 вопросов</div>
+                <div class="questions__text-main">Как будем делать сайт?</div>
+                <div class="questions__info-box quest3">
+                  <div class="questions__info quest3">
+                    <input
+                      id="vid_site1"
+                      checked
+                      type="radio"
+                      name="vid_site"
+                      value="gotovy"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="vid_site1" class="questions__text">
+                      <div class="questions__img-box question3">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/answer_logo-8.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service-quest3">
+                        Сделать лендинг на готовом решении
+                      </div></label
+                    >
+                  </div>
+                  <div class="questions__info quest3">
+                    <input
+                      id="vid_site2"
+                      type="radio"
+                      name="vid_site"
+                      value="dizain"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="vid_site2" class="questions__text">
+                      <div class="questions__img-box question3">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/answer_logo-9.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service-quest3">
+                        Разработать уникальный дизайн лендинга
+                      </div></label
+                    >
+                  </div>
+                </div>
+                <div class="questions__btn more">
+                  <div class="questions__button button">Далее ></div>
+                </div>
+              </div>
+              <div class="questions__item">
+                <div class="questions__number">4 из 4 вопросов</div>
+                <div class="questions__text-main">
+                  Выберите, что дополнительно к сайту нужно
+                </div>
+                <div class="questions__info-box">
+                  <div class="questions__info quest4">
+                    <input
+                      id="dop1"
+                      checked
+                      type="checkbox"
+                      name="dop"
+                      value="integraciya"
+                      class="questions__input"
+                    />
+
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="dop1" class="questions__text">
+                      <div class="questions__img-box question4">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/q4_1.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service">
+                        Интеграция с СРМ (Амо, Битрикс24)
+                      </div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="dop2"
+                      type="checkbox"
+                      name="dop"
+                      value="yandeks"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="dop2" class="questions__text">
+                      <div class="questions__img-box question4">
+                        <img
+                          class="questions__img img-q11"
+                          src="@img/siteCost/answer_logo-11 1.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service">
+                        Яндекс директ реклама
+                      </div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="dop3"
+                      type="checkbox"
+                      name="dop"
+                      value="socseti"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="dop3" class="questions__text">
+                      <div class="questions__img-box question4">
+                        <img
+                          class="questions__img img-q12"
+                          src="@img/siteCost/answer_logo-12.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service">
+                        Настройка рекламы соц. сети
+                      </div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="dop4"
+                      type="checkbox"
+                      name="dop"
+                      value="google"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="dop4" class="questions__text">
+                      <div class="questions__img-box question4">
+                        <img
+                          class="questions__img img-q13"
+                          src="@img/siteCost/answer_logo-13.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service">Гугл реклама</div></label
+                    >
+                  </div>
+                  <div class="questions__info quest4">
+                    <input
+                      id="dop5"
+                      type="checkbox"
+                      name="dop"
+                      value="seo"
+                      class="questions__input"
+                    />
+                    <div class="questions__check-box">
+                      <img
+                        class="questions__check"
+                        src="@img/siteCost/check.svg"
+                        alt="check"
+                      />
+                    </div>
+                    <div class="questions__check-item"></div>
+                    <label for="dop5" class="questions__text">
+                      <div class="questions__img-box question4">
+                        <img
+                          class="questions__img"
+                          src="@img/siteCost/answer_logo-14.png"
+                          alt="questions"
+                        />
+                      </div>
+                      <div class="questions__service">
+                        SEO продвижение
+                      </div></label
+                    >
+                  </div>
+                  <div class="questions__btn q4">
+                    <div class="questions__button button q4">Закончить</div>
+                  </div>
+                </div>
+              </div>
+              <div class="forma__popup-wrapper">
+                <div class="forma__popup-box2">
+                  <div class="forma__popup-close">
+                    <img src="@img/forma/close.svg" alt="close" />
+                  </div>
+                  <div class="forma__popup-title">
+                    Узнайте стоимость разработки Вашего лендинга
+                  </div>
+                  <div class="forma__popup-subtitle">
+                    Заполните форму и получите приятный бонус от нашей команды
+                  </div>
+                  <div id="forma_popup2" class="forma__site-box">
+                    <div class="questions__phone site">
+                      <div class="phone__input-box">
+                        <input
+                          class="phone__check req3"
+                          type="text"
+                          placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _"
+                          id="phone3"
+                          name="phone"
+                        />
+                        <div class="phone__img">
+                          <img src="@img/siteCost/call в 2.svg" alt="phone" />
+                        </div>
+
+                        <label class="phone__item number-lavel" for="phone3">
+                        </label>
+                      </div>
+                    </div>
+                    <button
+                      class="questions__button-form button result"
+                      type="submit"
+                      name="send"
+                    >
+                      Отправить
+                    </button>
+                    <div class="questions__check-site">
+                      <input
+                        id="formaagree3"
+                        class="checkbox__input req3"
+                        checked
+                        type="checkbox"
+                        name="agree"
+                      />
+                      <div class="forma__check-box">
+                        <img
+                          class="forma__check"
+                          src="@img/forma/check.svg"
+                          alt="check"
+                        />
+                      </div>
+                      <label for="formaagree3" class="forma__label">
+                        <div class="agree__text">
+                          Нажимая, соглашаюсь на обработку
+                        </div>
+                        <span class="agree__link"
+                          ><a href="#"> персональных данных</a></span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="site-cost__info">
+              <div class="cost-info__img-box">
+                <img src="@img/siteCost/photo.png" alt="info" />
+              </div>
+              <div class="cost-info__info-box">
+                <div class="cost-info__title">
+                  Помогу для Вас найти лучшее решение
+                </div>
+                <div class="cost-info__btn">Бонус</div>
+                <div class="cost-info__img-one">
+                  <img src="@img/siteCost/Frame.svg" alt="info" />
+                </div>
+                <div class="cost-info__img-two">
+                  <img src="@img/siteCost/money.svg" alt="money" />
+                </div>
+                <div class="cost-info__text-box">
+                  <div class="cost-info__text">Интеграция Вашего сайта</div>
+                  <div class="cost-info__text">
+                    с whatsapp, инстраграм, СРМ,
+                  </div>
+                  <div class="cost-info__text">
+                    телефония - стоимостью 28 000 руб.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      @@include('html/work.html', {}) @@include('html/about.html', {})
+      @@include('html/order.html', {})@@include('html/forma.html', {})
+      @@include('html/footer.html', {})
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
