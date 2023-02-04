@@ -1,0 +1,4 @@
+/node_modules
+/gulp
+.gulpfile.js
+.ajax_quest.php
